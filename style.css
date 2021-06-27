@@ -1,0 +1,11 @@
+body {
+    font-family: Arimo,Arial,Helvetica,"Lucida Grande",sans-serif;
+    background-color: #1d1d1d;
+    color: #ffffff;
+}
+.row {
+    display: flex; 
+}
+.section1 div{
+    width: 33%;
+}
