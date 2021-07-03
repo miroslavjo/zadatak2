@@ -3,9 +3,38 @@ body {
     background-color: #1d1d1d;
     color: #ffffff;
 }
-.row {
+ul {
+    list-style-type: none;
+}
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.section1 {
     display: flex; 
 }
 .section1 div{
-    width: 33%;
+    width: 33.333%;
+}
+
+.col-half {
+    display: inline-block;
+    width: 49%;
+}
+.col-full {
+    display: block;
+    width: 100%;
+}
+.actors img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.actors a{
+    color: #ffffff;
+}
+.actors a:hover{
+    color:red;
 }
